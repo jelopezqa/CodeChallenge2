@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4220" started-at="2021-08-31T15:12:55 CST" finished-at="2021-08-31T15:12:59 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4220" started-at="2021-08-31T15:12:55 CST" finished-at="2021-08-31T15:12:59 CST">
+      <class name="api.test.GetEmployeesInformationTest">
+        <test-method status="PASS" signature="getAllEmployess()[pri:0, instance:api.test.GetEmployeesInformationTest@13eb8acf]" name="getAllEmployess" duration-ms="2501" started-at="2021-08-31T15:12:55 CST" finished-at="2021-08-31T15:12:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployess -->
+        <test-method status="PASS" signature="printEmployeeInformation(java.lang.String)[pri:0, instance:api.test.GetEmployeesInformationTest@13eb8acf]" name="printEmployeeInformation" duration-ms="883" started-at="2021-08-31T15:12:57 CST" data-provider="id_employee" finished-at="2021-08-31T15:12:58 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printEmployeeInformation -->
+        <test-method status="PASS" signature="printEmployeeInformation(java.lang.String)[pri:0, instance:api.test.GetEmployeesInformationTest@13eb8acf]" name="printEmployeeInformation" duration-ms="264" started-at="2021-08-31T15:12:58 CST" data-provider="id_employee" finished-at="2021-08-31T15:12:59 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printEmployeeInformation -->
+        <test-method status="PASS" signature="printEmployeeInformation(java.lang.String)[pri:0, instance:api.test.GetEmployeesInformationTest@13eb8acf]" name="printEmployeeInformation" duration-ms="517" started-at="2021-08-31T15:12:59 CST" data-provider="id_employee" finished-at="2021-08-31T15:12:59 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printEmployeeInformation -->
+      </class> <!-- api.test.GetEmployeesInformationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
